@@ -1,9 +1,13 @@
 {
   "name": "week3-4",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^14.00.0",
+    "npn": "^8.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.0",
@@ -18,5 +22,18 @@
     "mongoose": "^6.6.2",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "app for assignment 1",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chihiro88G/week3-4.git"
+  },
+  "author": "Chihiro Hasgeawa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chihiro88G/week3-4/issues"
+  },
+  "homepage": "https://github.com/Chihiro88G/week3-4#readme"
 }
